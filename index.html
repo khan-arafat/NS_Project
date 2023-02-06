@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viwport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <meta name="description" content="Math Game created by arafat">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-components">
+                <div class="score">Score:<br/><span id="score">0</span></div>
+                <div class="board-next">
+                    <div class="board" id="board"></div>
+                    <div class="dot" id="nextQ">></div>
+                </div>
+            <p>Click the correct answer below</p>
+            <div class="allOptions">
+                <div class="options"></div>
+                <div class="options"></div>
+                <div class="options"></div>
+                <div class="options"></div>
+            </div>
+            </div>
+            <div class="below-options">
+                <button id="start" onclick="playQuiz()">Start Game</button>
+                <div class="time">Time Remaining:<br/><span id="time-left">120</span></div>
+            </div>
+        </div>
+        <script src="typeScript.js"></script>
+    </body>
+</html>
