@@ -1,0 +1,117 @@
+body {
+    background: radial-gradient(circle, #bbbbbb, #cccccc);
+    height: 100%;
+  }
+  .container {
+    width: 550px;
+    height: 400px;
+    background-color: rgb(137, 168, 157);
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 0 4px 0px 0 maroon;
+  }
+  .main-components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .score {
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px auto;
+    box-shadow: 0 4px 3px 0 #bbb;
+    margin: 0px 10px 10px 80%;
+  }
+  .board-next {
+    display: flex;
+  }
+  .board {
+    width: 400px;
+    height: 80px;
+    margin: 10px auto;
+    background-color: slategray;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center;
+    position: static;
+  }
+  .dot {
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 3px;
+    left: 80px;
+    top: 115px;
+    cursor: pointer;
+  }
+  .dot:hover {
+    color: orange;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  p {
+    line-height: .5;
+  }
+  .allOptions {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .options{
+    width: 50px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #cccccc;
+    box-shadow: 2px 2px 4px 0 #ef5def;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    /* flex: 1; */
+  }
+  .below-options {
+    margin-left: 43%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 300px;
+  }
+  #start {
+    width: fit-content;
+    min-height: fit-content;
+    background-color: goldenrod;
+    border: none;
+    color: darkblue;
+  }
+  .time {
+    width: 120px;
+    height: fit-content;
+    background-color: yellow;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .correct {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: green;
+    box-shadow: 2px 2px 4px 0 #ef5def;
+  }
+  .incorrect {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: red;
+    box-shadow: 2px 2px 4px 0 #ef5def;
+  }
